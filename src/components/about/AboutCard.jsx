@@ -13,10 +13,11 @@ const AboutCard = () => {
             <img src='/public/images/food/cyril-mzn-WSvth_lwCi0-unsplash.jpg' className='homeaboutpic' />
           </div>
           <div className='right row'>
-            <Heading subtitle='LEARN ANYTHING' title='Benefits About Online Learning Expertise' />
+            <Heading subtitle='TRAVEL EVERYWHERE' title='Plan your journey with us' />
             <div className='items'>
               {homeAbout.map((val) => {
                 return (
+                  // eslint-disable-next-line react/jsx-key
                   <div className='item flexSB'>
                     <div className='img'>
                       <img src={val.cover} alt='' />
@@ -32,7 +33,7 @@ const AboutCard = () => {
           </div>
         </div>
       </section>
-      <Awrapper />
+      {/* <Awrapper /> */}
     </>
   )
 }

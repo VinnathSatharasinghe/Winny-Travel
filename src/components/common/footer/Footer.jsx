@@ -51,6 +51,7 @@ const Footer = () => {
           <div className='box'>
             <h3>Recent Post</h3>
             {blog.slice(0, 3).map((val) => (
+              // eslint-disable-next-line react/jsx-key
               <div className='items flexSB'>
                 <div className='img'>
                   <img src={val.cover} alt='' />
@@ -90,7 +91,7 @@ const Footer = () => {
       </footer>
       <div className='legal'>
         <p>
-          Copyright ©2022 All rights reserved | This template is made with <i className='fa fa-heart'></i> by GorkhCoder
+          Copyright Winny ©2024 All rights reserved | WINNY Development <i className='fa fa-heart'></i> by Vinnath Satharasinghe
         </p>
       </div>
     </>

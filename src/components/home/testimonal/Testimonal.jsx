@@ -8,15 +8,16 @@ const Testimonal = () => {
     <>
       <section className='testimonal padding'>
         <div className='container'>
-          <Heading subtitle='TESTIMONIAL' title='Our Successful Students' />
+          <Heading subtitle='TESTIMONIAL' title='Experiences of Our World Explorers' />
 
           <div className='content grid2'>
             {testimonal.map((val) => (
+              // eslint-disable-next-line react/jsx-key
               <div className='items shadow'>
                 <div className='box flex'>
                   <div className='img'>
                     <img src={val.cover} alt='' />
-                    <i className='fa fa-quote-left icon'></i>
+                    {/* <i className='fa fa-quote-left icon'></i> */}
                   </div>
                   <div className='name'>
                     <h2>{val.name}</h2>
