@@ -1,3 +1,9 @@
+.card-img-top {
+  width: 286px;
+  height: 180px;
+  object-fit: cover; /* This ensures the image covers the entire area */
+}
+
 .coursesCard {
   padding: 50px 0;
 }

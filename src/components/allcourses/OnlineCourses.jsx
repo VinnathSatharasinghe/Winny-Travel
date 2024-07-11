@@ -1,4 +1,3 @@
-import React from "react"
 import "./courses.css"
 import { online } from "../../dummydata"
 import Heading from "../common/heading/Heading"
@@ -11,6 +10,7 @@ const OnlineCourses = () => {
           <Heading subtitle='COURSES' title='Browse Our Online Courses' />
           <div className='content grid3'>
             {online.map((val) => (
+              // eslint-disable-next-line react/jsx-key
               <div className='box'>
                 <div className='img'>
                   <img src={val.cover} />
