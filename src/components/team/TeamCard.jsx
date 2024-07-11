@@ -1,10 +1,11 @@
-import React from "react"
+
 import { team } from "../../dummydata"
 
 const TeamCard = () => {
   return (
     <>
       {team.map((val) => (
+        // eslint-disable-next-line react/jsx-key
         <div className='items shadow'>
           <div className='img'>
             <img src={val.cover} alt='' />

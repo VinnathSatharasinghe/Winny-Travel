@@ -1,4 +1,4 @@
-import Back from "../common/back/Back"
+import Back from "../common/hero sections/tarvel"
 import CoursesCard from "./CoursesCard"
 import OnlineCourses from "./OnlineCourses"
 

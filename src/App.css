@@ -85,8 +85,10 @@ p {
   font-size: 18px;
 }
 
-.back {
-  background-image: url("../public/images/back.webp");
+/* all travels back */
+
+.travel {
+  background-image: url("/public/images/travel/amos-bar-zeev-3yzE1SUfbwY-unsplash.jpg");
   background-size: cover;
   background-attachment: fixed;
   position: absolute;
@@ -109,6 +111,63 @@ p {
   font-size: 17px;
   text-transform: uppercase;
 }
+
+
+
+.about {
+  background-image: url("/public/images/travel/amos-bar-zeev-3yzE1SUfbwY-unsplash.jpg");
+  background-size: cover;
+  background-attachment: fixed;
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: -1;
+  width: 100%;
+  height: 100vh;
+  padding-top: 30%;
+  padding-right: 50px;
+  color: #fff;
+  text-align: center;
+}
+
+
+.team {
+  background-image: url("/public/images/travel/luca-bravo-VowIFDxogG4-unsplash.jpg");
+  background-size: cover;
+  background-attachment: fixed;
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: -1;
+  width: 100%;
+  height: 100vh;
+  padding-top: 30%;
+  padding-right: 50px;
+  color: #fff;
+  text-align: center;
+}
+
+
+.journal {
+  background-image: url("/public/images/travel/amos-bar-zeev-3yzE1SUfbwY-unsplash.jpg");
+  background-size: cover;
+  background-attachment: fixed;
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: -1;
+  width: 100%;
+  height: 100vh;
+  padding-top: 30%;
+  padding-right: 50px;
+  color: #fff;
+  text-align: center;
+}
+
+
+
+
+
 .margin {
   margin-top: 40.3%;
 }
