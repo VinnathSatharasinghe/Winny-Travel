@@ -7,14 +7,18 @@ const Hero = () => {
       <section className='hero'>
         <div className='container'>
           <div className='row'>
-            <Heading subtitle='WELCOME TO ACADEMIA' title='Best Online Education Expertise' />
-            <p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts.</p>
+            <Heading subtitle='WELCOME TO WINNY TRAVELS' title='Embark on Unforgettable Journeys with Winny Travels' />
+            <p>Welcome to Winny Travels - your gateway to unforgettable adventures! Whether you are seeking 
+            a tranquil escape, an exhilarating expedition, or a cultural immersion, we are here to make 
+            your travel dreams come true. Our expert team is dedicated to crafting personalized 
+            itineraries that cater to your unique preferences and interests. 
+            With Winny Travels, you all explore breathtaking destinations, experience diverse cultures, 
+            and create memories.  </p>
+
+
             <div className='button'>
               <button className='primary-btn'>
-                GET STARTED NOW <i className='fa fa-long-arrow-alt-right'></i>
-              </button>
-              <button>
-                VIEW COURSE <i className='fa fa-long-arrow-alt-right'></i>
+                TRAVEL WITH US<i className='fa fa-long-arrow-alt-right'></i>
               </button>
             </div>
           </div>

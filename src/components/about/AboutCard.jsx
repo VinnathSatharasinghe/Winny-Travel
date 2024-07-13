@@ -1,8 +1,7 @@
-import React from "react"
 import Heading from "../common/heading/Heading"
 import "./about.css"
 import { homeAbout } from "../../dummydata"
-import Awrapper from "./Awrapper"
+// import Awrapper from "./Awrapper"
 
 const AboutCard = () => {
   return (
@@ -10,7 +9,7 @@ const AboutCard = () => {
       <section className='aboutHome'>
         <div className='container flexSB'>
           <div className='left row'>
-            <img src='/public/images/food/cyril-mzn-WSvth_lwCi0-unsplash.jpg' className='homeaboutpic' />
+            <img src='/public/images/travel/scott-goodwill-y8Ngwq34_Ak-unsplash.jpg' className='homeaboutpic' />
           </div>
           <div className='right row'>
             <Heading subtitle='TRAVEL EVERYWHERE' title='Plan your journey with us' />
